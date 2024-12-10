@@ -1,5 +1,10 @@
-### Above you'll find some details of design patterns
+## Design pattern
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img alt="gabriel-Java" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+</div>
+
+- Here I wish to put some examples of designs using Java.
 
 ## Factory
 
@@ -16,5 +21,3 @@ The Singleton pattern is a design pattern that ensures that a class has only one
 It helps us with managing resources, such as databases, network connections, or other shared objects. 
 
 ** But remember, that it's not a good idea to use a Singleton for a global variable.
-
-
