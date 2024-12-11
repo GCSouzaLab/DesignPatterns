@@ -21,3 +21,11 @@ The Singleton pattern is a design pattern that ensures that a class has only one
 It helps us with managing resources, such as databases, network connections, or other shared objects. 
 
 ** But remember, that it's not a good idea to use a Singleton for a global variable.
+
+
+## Proxy
+
+Proxy is a structural design pattern that provides a surrogate or placeholder for another object to control access to it.
+It forbid the access to the original object, and instead, it provides a new interface to it. 
+Following the principle "Prefer interfaces to classes". We can control the management of requisitions to applications,
+and decide if we want to do something before or after the main function.
