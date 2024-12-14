@@ -1,8 +1,0 @@
-package com.design.patterns.Wrapper;
-
-public class PortugueseMessage {
-
-    public String sendMessageInPortuguese(String message) {
-        return message;
-    }
-}
