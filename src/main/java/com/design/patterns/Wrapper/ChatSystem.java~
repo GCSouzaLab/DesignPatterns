@@ -1,5 +1,0 @@
-package com.design.patterns.Wrapper;
-
-public interface ChatSystem {
-    
-}
