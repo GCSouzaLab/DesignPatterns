@@ -29,3 +29,11 @@ Proxy is a structural design pattern that provides a surrogate or placeholder fo
 It forbid the access to the original object, and instead, it provides a new interface to it. 
 Following the principle "Prefer interfaces to classes". We can control the management of requisitions to applications,
 and decide if we want to do something before or after the main function.
+
+
+## Wrapper
+
+Wrapper is an intermediate class that allows us to hide the complexity of a class from the user.
+It allows us to create a new class that has the same interface as the original class, but with a different implementation.
+The example I used is the PortugueseToEnglishMessageAdapter that translates a message from English to Portuguese,
+where the final result is sending a Portuguese message.
