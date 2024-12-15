@@ -37,3 +37,10 @@ Wrapper is an intermediate class that allows us to hide the complexity of a clas
 It allows us to create a new class that has the same interface as the original class, but with a different implementation.
 The example I used is the PortugueseToEnglishMessageAdapter that translates a message from English to Portuguese,
 where the final result is sending a Portuguese message.
+
+## Facade
+
+Facade is a design pattern that provides a simplified interface to a complex system by grouping together a set of interfaces from different subsystems.
+The developer doesn't need to know the details of the complex system, but can use the facade to access it through a simple interface.
+The example is the execution of SQL queries, from a sql file. Simplifying the usage for developers.
+And a good idea would be to have comments into the class, explaining the usage.
