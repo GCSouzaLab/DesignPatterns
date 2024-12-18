@@ -44,3 +44,10 @@ Facade is a design pattern that provides a simplified interface to a complex sys
 The developer doesn't need to know the details of the complex system, but can use the facade to access it through a simple interface.
 The example is the execution of SQL queries, from a sql file. Simplifying the usage for developers.
 And a good idea would be to have comments into the class, explaining the usage.
+
+## Decorator
+
+Decorator is a structural design pattern that allows us to add new behavior to an object dynamically.
+The example I used is the Coffee with milk and sugar. 
+This example is like a cascade of classes, we add one after the other and so on. And the result of method getPrice()
+is the sum of all classes in the stack.
