@@ -4,7 +4,7 @@ import com.design.patterns.Decorator.customs.Chocolate;
 import com.design.patterns.Decorator.customs.Milk;
 import com.design.patterns.Decorator.customs.Sugar;
 
-public class Main {
+public class DecoratorApplication {
     public static void main(String[] args) {
         Cafe cafe = new SimpleCoffee();
         cafe = new Milk(cafe);

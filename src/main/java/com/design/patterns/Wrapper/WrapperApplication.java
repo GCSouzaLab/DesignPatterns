@@ -1,10 +1,6 @@
-package com.design.patterns;
+package com.design.patterns.Wrapper;
 
-import com.design.patterns.Wrapper.ChatSystem;
-import com.design.patterns.Wrapper.PortugueseMessage;
-import com.design.patterns.Wrapper.PortugueseToEnglishMessageAdapter;
-
-public class Main {
+public class WrapperApplication {
     public static void main(String[] args) {
 
         PortugueseMessage portugueseMessage = new PortugueseMessage();
