@@ -57,3 +57,11 @@ is the sum of all classes in the stack.
 Strategy is a design pattern that allows us to define a family of algorithms, encapsulate each one, and make them interchangeable.
 It's important to remember that each of them is a different implementation of the same interface.
 And for new implementations, we just need to create a new class that implements the interface and add it to the map (in our case).
+
+## Observer
+
+Observer is a design pattern that allows us to define a subscription mechanism to notify multiple objects
+about any events that happen to the object they're observing.
+This case is an example like chats in whatsApp, where all users into a chat need to receive the message.
+The event is the message.
+The users are the observers.
