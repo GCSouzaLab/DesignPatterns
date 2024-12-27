@@ -65,3 +65,11 @@ about any events that happen to the object they're observing.
 This case is an example like chats in whatsApp, where all users into a chat need to receive the message.
 The event is the message.
 The users are the observers.
+
+## Template Method
+
+Template Method is a design pattern that defines the program skeleton of an algorithm in the superclass 
+but lets subclasses override specific steps of the algorithm without changing its structure.
+It keeps the algorithm structure, but allows subclasses to change the implementation of some steps.
+In my example, the structure of calculating the salary is always the same, 
+however the percentage of which discount is different.
