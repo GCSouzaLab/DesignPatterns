@@ -5,6 +5,7 @@
 </div>
 
 - Here I wish to put some examples of designs using Java.
+- Soon I'm going to implement unit tests for each example.
 
 ## Factory
 
@@ -73,3 +74,9 @@ but lets subclasses override specific steps of the algorithm without changing it
 It keeps the algorithm structure, but allows subclasses to change the implementation of some steps.
 In my example, the structure of calculating the salary is always the same, 
 however the percentage of which discount is different.
+
+## Visitor 
+
+This Pattern is a way to separate an algorithm from an object structure on which it operates.
+It allows us to add new operations to an object structure without modifying it. And we follow the principle Single Responsibility.
+My example show us a sending of a message about insurance, depending on the registered client.
